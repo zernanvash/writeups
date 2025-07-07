@@ -8,3 +8,4 @@ N=p*q E=65537
 for l in flag: 
   c+=format(pow(ord(l),E,N), '08X') print(c)
 ```
+**Challenge breakdown**
