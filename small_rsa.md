@@ -1,4 +1,4 @@
-#SMALL RSA
+# SMALL RSA
 from Crypto.Util.number import getPrime 
 flag="FLAG*****************************" 
 c="" p=getPrime(12) 
