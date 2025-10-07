@@ -20,4 +20,12 @@ from hex_to_array import hex_to_array
 
 data = hex_to_array("sample_hex.txt", split_size=4, as_int=True)
 
-
+-----------------BITWISE OPERATIONS---------------------
+Operator   Name                Description / Example
+--------------------------------------------------------
+&          AND                 Keeps bits that are 1 in *both* operands
+|          OR                  Sets bits that are 1 in *either* operand
+^          XOR (exclusive OR)  Toggles bits where mask bit = 1
+~          NOT (bitwise neg)   Flips all bits (bitwise inversion)
+<<         Left Shift          Shifts bits left (multiply by 2 each shift)
+>>         Right Shift         Shifts bits right (divide by 2 each shift)
