@@ -1,0 +1,23 @@
+=======PRE============
+binwalk (-e : extract / -eM recurssive)
+xxd filename.bin | less
+ent 
+
+objdump -d ./program
+objdump -d hello | grep -A5 printf
+
+strace -e trace=file(all) ./program
+
+strings
+
+qemu-* : 
+	qemu-riscv64 - RISC-V architecture (riscv64)
+
+++++++++++++++++++++++++++++++++++
+
+#CONVERT FROM IDA HEX COPY TO ARRAY PYTHON IMPORT
+from hex_to_array import hex_to_array
+
+data = hex_to_array("sample_hex.txt", split_size=4, as_int=True)
+
+
