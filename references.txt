@@ -2,4 +2,5 @@ https://anti-debug.checkpoint.com/
 https://www.pylingual.io/
 http://md5.cz/
 https://defuse.ca/online-x86-assembler.htm
+https://sourceware.org/gdb/current/onlinedocs/gdb.html/Basic-Python.html#Basic-Python
 
